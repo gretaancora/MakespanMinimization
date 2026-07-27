@@ -1,0 +1,5 @@
+m,dims,n_instances,n_optimal,frac_optimal,avg_target_cmax,avg_reference_cmax,avg_dp_runtime_s,n_sample
+3,2,10,10,1.0,25.0,25.9,0.007,25
+4,3,10,10,1.0,25.0,24.5,0.018,33
+5,4,10,10,1.0,25.0,24.7,5.681,42
+6,5,10,0,0.0,25.0,24.7,,50

@@ -1,0 +1,7 @@
+m,variance,dims,last_n_dense_optimal,first_n_dense_stopped,avg_speedup_dense_vs_sparse,min_speedup_dense_vs_sparse,recommendation
+2,high,1,800,,409.29,25.33,"usa la densa fino ad almeno n=800 (limite superiore del grid testato, non ancora fallita)"
+2,low,1,800,,123.26,4.25,"usa la densa fino ad almeno n=800 (limite superiore del grid testato, non ancora fallita)"
+3,high,2,100,150,62.7,0.17,"usa la densa per n<=100, poi passa alla sparsa (la densa si ferma a n=150); attenzione: in 1 classe/i di n la densa e' risultata PIU' LENTA della sparsa nonostante fosse eseguibile (overhead numpy su istanze piccole)"
+3,low,2,200,,278.75,0.36,"usa la densa fino ad almeno n=200 (limite superiore del grid testato, non ancora fallita); attenzione: in 1 classe/i di n la densa e' risultata PIU' LENTA della sparsa nonostante fosse eseguibile (overhead numpy su istanze piccole)"
+5,high,4,,5,,,usa sempre la sparsa (la densa non e' mai riuscita in questo grid)
+5,low,4,5,6,0.0,0.0,"usa la densa per n<=5, poi passa alla sparsa (la densa si ferma a n=6); attenzione: in 1 classe/i di n la densa e' risultata PIU' LENTA della sparsa nonostante fosse eseguibile (overhead numpy su istanze piccole)"

@@ -1,0 +1,5 @@
+m,dims,representation,n_tested_min,n_tested_max,last_n_some_optimal,first_n_all_failed,recap
+3,2,sparse,10,640,320,640,"OK fino ad almeno n=320, fallisce sistematicamente a partire da n=640"
+4,3,sparse,10,160,80,160,"OK fino ad almeno n=80, fallisce sistematicamente a partire da n=160"
+5,4,sparse,10,80,40,80,"OK fino ad almeno n=40, fallisce sistematicamente a partire da n=80"
+6,5,sparse,10,40,20,40,"OK fino ad almeno n=20, fallisce sistematicamente a partire da n=40"

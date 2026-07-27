@@ -1,0 +1,7 @@
+m,variance,dims,representation,last_n_optimal,first_n_stopped,recommendation
+2,high,1,sparse,800,,"rappresentazione 'sparse' forzata: OK fino ad almeno n=800 (limite superiore del grid testato, non ancora fermata)"
+2,low,1,sparse,800,,"rappresentazione 'sparse' forzata: OK fino ad almeno n=800 (limite superiore del grid testato, non ancora fermata)"
+3,high,2,sparse,25,,"rappresentazione 'sparse' forzata: OK fino ad almeno n=25 (limite superiore del grid testato, non ancora fermata)"
+3,low,2,sparse,100,,"rappresentazione 'sparse' forzata: OK fino ad almeno n=100 (limite superiore del grid testato, non ancora fermata)"
+5,high,4,sparse,11,12,"rappresentazione 'sparse' forzata: OK per n<=11, poi si ferma a n=12 (nessun confronto disponibile con l'altra rappresentazione, non eseguita in questa run)"
+5,low,4,sparse,11,12,"rappresentazione 'sparse' forzata: OK per n<=11, poi si ferma a n=12 (nessun confronto disponibile con l'altra rappresentazione, non eseguita in questa run)"
